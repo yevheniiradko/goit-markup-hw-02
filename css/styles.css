@@ -1,5 +1,5 @@
-body{
-font-family: "Roboto", "Helvetica Neue", "Segoe UI", "Arial", sans-serif;
+body {
+font-family: "Roboto", sans-serif;
 color: #434455;
 background-color: #FFFFFF;
 }
@@ -41,7 +41,7 @@ color: #2e2f42;
 color: #404bbf;
 }
 
-.Contacts {
+.contacts {
     font-style: normal;
 }
 
@@ -79,6 +79,11 @@ color: #404bbf;
         background-color: #4d5ae5;
 }
 
+.hero-button:hover, .hero-button:focus, {
+background-color: #404bbf;
+}
+
+
 /* Features section */
 
 
@@ -89,6 +94,7 @@ color: #404bbf;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 
 
@@ -112,7 +118,9 @@ color: #404bbf;
 .team {
     background-color: #f4f4fd;
 }
-
+.team-list-item {
+    background-color: #FFFFFF;
+}
 
 /* footer section*/
 
